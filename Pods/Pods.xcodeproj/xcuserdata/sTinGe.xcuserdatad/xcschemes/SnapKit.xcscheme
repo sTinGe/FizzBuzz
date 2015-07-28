@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91CEFE0115EC1F2941A086CD"
-               BuildableName = "Pods_FizzBuzzTests.framework"
-               BlueprintName = "Pods-FizzBuzzTests"
+               BlueprintIdentifier = "236C637312DBD686FEB4D3E8"
+               BuildableName = "SnapKit.framework"
+               BlueprintName = "SnapKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

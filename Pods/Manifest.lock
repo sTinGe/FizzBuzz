@@ -1,13 +1,13 @@
 PODS:
-  - Nimble (1.0.0)
-  - Quick (0.3.1)
+  - SnapKit (0.12.0)
+  - SwiftyDrop (1.0.4)
 
 DEPENDENCIES:
-  - Nimble (~> 1.0.0)
-  - Quick (~> 0.3.0)
+  - SnapKit (~> 0.12.0)
+  - SwiftyDrop (~> 1.0.0)
 
 SPEC CHECKSUMS:
-  Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
-  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
+  SwiftyDrop: fd8aa3295382c01867a9f14bb533698e89de69cb
 
 COCOAPODS: 0.38.2
