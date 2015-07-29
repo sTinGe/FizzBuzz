@@ -4,22 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Nimble.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-FizzBuzz.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-FizzBuzzTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,7 +27,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>295789EF99BABFD3892978AE8E323263</key>
+		<key>4A19DCF3E76BF2051FC585438392D4D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,22 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67899DF3EA8F54D8BC57CE1EA3DABB93</key>
+		<key>8D6D4B342F5A6E948DB01CFA442D35B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8D862C87401D011FB7A18996BB5ECFEF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9E45FDD27B71F5E764EBD00256C29D1C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E46F7A3949A4CB02A0D2EDC3B7CC21AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

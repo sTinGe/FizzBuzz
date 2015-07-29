@@ -52,14 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-FizzBuzzTests/Nimble.framework'
-  install_framework 'Pods-FizzBuzzTests/Quick.framework'
   install_framework 'Pods-FizzBuzzTests/SnapKit.framework'
   install_framework 'Pods-FizzBuzzTests/SwiftyDrop.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-FizzBuzzTests/Nimble.framework'
-  install_framework 'Pods-FizzBuzzTests/Quick.framework'
   install_framework 'Pods-FizzBuzzTests/SnapKit.framework'
   install_framework 'Pods-FizzBuzzTests/SwiftyDrop.framework'
 fi

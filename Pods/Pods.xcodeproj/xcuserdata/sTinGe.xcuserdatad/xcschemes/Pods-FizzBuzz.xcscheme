@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87D77B491E44E28D5845B379"
+               BlueprintIdentifier = "F1D12EAE4394F4EFB709F1DE"
                BuildableName = "Pods_FizzBuzz.framework"
                BlueprintName = "Pods-FizzBuzz"
                ReferencedContainer = "container:Pods.xcodeproj">

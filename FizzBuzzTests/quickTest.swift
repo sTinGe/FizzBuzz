@@ -14,7 +14,7 @@ class quickTest: QuickSpec {
     describe("validate") {
       var fizzBuzz: FizzBuzz! = FizzBuzz()
       expect(fizzBuzz.check(15)).to(equal("FizzBuzz"))
-      expect(fizzBuzz.check(3)).to(contain("Fizz"))
+      expect(fizzBuzz.check(3)).to(equal("Fizz"))
       expect(fizzBuzz.check(5)).to(contain("Buzz"))
       expect(fizzBuzz.check(11)).to(contain("11"))
     }
