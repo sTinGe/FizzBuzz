@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F8B9C376C3BB5F0133593C4 /* Pods_FizzBuzz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBF75478AA1EFDA534FBB36 /* Pods_FizzBuzz.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A99269B69B941D98B5FBCECC /* Pods_FizzBuzzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4827D62D5B887CFF7E2C051 /* Pods_FizzBuzzTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BE3F94901B68CF5700879E0D /* quickTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F948F1B68CF5700879E0D /* quickTest.swift */; };
 		BEE4D7A91B65FAEF00367577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4D7A81B65FAEF00367577 /* AppDelegate.swift */; };
 		BEE4D7AB1B65FAEF00367577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4D7AA1B65FAEF00367577 /* ViewController.swift */; };
 		BEE4D7AE1B65FAEF00367577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE4D7AC1B65FAEF00367577 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		0E9BA173D8C4D45C81F07E6C /* Pods-FizzBuzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.release.xcconfig"; path = "Pods/Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.release.xcconfig"; sourceTree = "<group>"; };
 		3544CB944EF1729A08C83ED8 /* Pods-FizzBuzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.debug.xcconfig"; sourceTree = "<group>"; };
 		9BBF75478AA1EFDA534FBB36 /* Pods_FizzBuzz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FizzBuzz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F948F1B68CF5700879E0D /* quickTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quickTest.swift; sourceTree = "<group>"; };
 		BEE4D7A31B65FAEF00367577 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE4D7A71B65FAEF00367577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE4D7A81B65FAEF00367577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				BEE4D7BE1B65FAEF00367577 /* FizzBuzzTests.swift */,
 				BEE4D7BC1B65FAEF00367577 /* Supporting Files */,
+				BE3F948F1B68CF5700879E0D /* quickTest.swift */,
 			);
 			path = FizzBuzzTests;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			files = (
 				BEE4D7BF1B65FAEF00367577 /* FizzBuzzTests.swift in Sources */,
 				BEE4D7CA1B65FC0B00367577 /* FizzBuzz.swift in Sources */,
+				BE3F94901B68CF5700879E0D /* quickTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

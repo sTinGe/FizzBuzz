@@ -38,8 +38,9 @@ public final class Drop: UIView {
     private var statusLabel: UILabel!
     private var topConstraint: NSLayoutConstraint!
     private var heightConstraint: NSLayoutConstraint!
-    private let statusTopMargin: CGFloat = 8.0
-    private let statusBottomMargin: CGFloat = 8.0
+    private let statusTopMargin: CGFloat = 10.0
+    private let statusBottomMargin: CGFloat = 10.0
+    private var minimumHeight: CGFloat { return Drop.statusBarHeight() + 44.0 }
     private var upTimer: NSTimer?
     private var startTop: CGFloat?
     
@@ -104,7 +105,9 @@ public final class Drop: UIView {
     }
     
     private func updateHeight() {
-        heightConstraint.constant = self.statusLabel.frame.size.height + Drop.statusBarHeight() + statusTopMargin + statusBottomMargin
+        let calculatedHeight = self.statusLabel.frame.size.height + Drop.statusBarHeight() + statusTopMargin + statusBottomMargin
+        println("cal: \(calculatedHeight)")
+        heightConstraint.constant = calculatedHeight > minimumHeight ? calculatedHeight : minimumHeight
         self.layoutIfNeeded()
     }
 }
@@ -401,7 +404,6 @@ extension Drop {
             stopUpTimer()
             startTop = topConstraint.constant
         case .Changed:
-            let location = pan.locationInView(Drop.window())
             let translation = pan.translationInView(Drop.window())
             let top = startTop! + translation.y
             if top > 0.0 {

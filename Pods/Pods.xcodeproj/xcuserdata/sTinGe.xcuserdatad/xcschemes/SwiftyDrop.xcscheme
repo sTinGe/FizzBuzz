@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54D7732121F59E982329AA29"
+               BlueprintIdentifier = "E4B17ED756E71BBC226D79F4"
                BuildableName = "SwiftyDrop.framework"
                BlueprintName = "SwiftyDrop"
                ReferencedContainer = "container:Pods.xcodeproj">
